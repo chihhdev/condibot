@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/condibot/static/css/main.03bd6dd2.css",
+    "main.js": "/condibot/static/js/main.793c151d.js",
+    "index.html": "/condibot/index.html",
+    "main.03bd6dd2.css.map": "/condibot/static/css/main.03bd6dd2.css.map",
+    "main.793c151d.js.map": "/condibot/static/js/main.793c151d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03bd6dd2.css",
+    "static/js/main.793c151d.js"
+  ]
+}
