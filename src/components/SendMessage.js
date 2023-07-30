@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-const SendMessage = () => {
+const SendMessage = ({ messageInputRef }) => {
   return (
     <form className="send-message">
       <label htmlFor="messageInput" hidden>
@@ -12,10 +12,11 @@ const SendMessage = () => {
         type="text"
         className="form-input__input"
         placeholder="type message..."
+        ref={messageInputRef}
       />
       <button type="submit">Send</button>
     </form>
-  );
-};
+  )
+}
 
-export default SendMessage;
+export default SendMessage
